@@ -102,7 +102,7 @@ button {
     background: transparent;
     color: #0ABAB5;
     cursor: pointer;
-    transition: .3s;
+    transition: .1s;
 }
 
 button:hover {
@@ -140,7 +140,7 @@ button:hover {
     padding: 20px;
     border-radius: 15px;
     width: 110px;
-    transition: .4s;
+    transition: .1s;
 }
 
 .skill:hover {
@@ -167,7 +167,7 @@ button:hover {
     background: #0c0c0c;
     border-radius: 15px;
     padding: 15px;
-    transition: .4s;
+    transition: .1s;
     border: 1px solid rgba(10, 186, 181, 0.4);
 }
 
@@ -200,7 +200,7 @@ button:hover {
     border: 0.5px solid #0ABAB5;
     padding: 20px;
     border-radius: 15px;
-    transition: .5s;
+    transition: .1s;
 }
 
 .member:hover {
@@ -233,7 +233,7 @@ button:hover {
     padding: 40px;
     border-radius: 50px;
     border: 1px solid #0ABAB5;
-    transition: .5s;
+    transition: .1s;
 }
 
 .family-card:hover {
@@ -264,7 +264,7 @@ button:hover {
 .hidden {
     opacity: 0;
     transform: translateY(60px);
-    transition: 5s;
+    transition: 1.5s;
 }
 
 .show {
