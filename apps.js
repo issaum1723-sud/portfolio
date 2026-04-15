@@ -7,7 +7,6 @@ elements.forEach(el => {
 });
 
 function showOnScroll() {
-
     const trigger = window.innerHeight * 0.85;
 
     elements.forEach(el => {
@@ -16,9 +15,8 @@ function showOnScroll() {
         if (top < trigger) {
             el.classList.add("show");
         }
-
     });
-
 }
 
 window.addEventListener("scroll", showOnScroll);
+showOnScroll();
