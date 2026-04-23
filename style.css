@@ -93,23 +93,25 @@ nav a:hover {
 }
 
 /* BUTTON */
-
-button {
-    margin-top: 30px;
-    padding: 12px 35px;
+button,
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
     border-radius: 30px;
-    border: 2px solid #0ABAB5;
-    background: transparent;
-    color: #0ABAB5;
+    border: none;
+    background: linear-gradient(45deg, #0ABAB5, #00ffe1);
+    color: black;
+    font-weight: 600;
     cursor: pointer;
-    transition: .1s;
+    transition: 0.3s;
+    text-decoration: none;
 }
 
-button:hover {
-    background: #0ABAB5;
-    color: black;
-    box-shadow: 0 0 30px #0ABAB5;
-    transform: scale(1.05);
+button:hover,
+.button:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 25px #0ABAB5;
 }
 
 /* ABOUT */
@@ -169,6 +171,7 @@ button:hover {
     padding: 15px;
     transition: .1s;
     border: 1px solid rgba(10, 186, 181, 0.4);
+
 }
 
 .project-card:hover {
@@ -190,8 +193,8 @@ button:hover {
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 100fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
     padding: 0 50px;
 }
 
@@ -324,4 +327,37 @@ button:hover {
 .contact-form textarea:focus {
     outline: none;
     box-shadow: 0 0 15px #0ABAB5;
+}
+
+.friends {
+    margin-top: 200px;
+}
+
+.friends-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    padding: 0 80px;
+}
+
+.friend {
+    background: #0c0c0c;
+    border: 1px solid #0ABAB5;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.friend:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 40px #0ABAB5;
+}
+
+.friend img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #0ABAB5;
 }

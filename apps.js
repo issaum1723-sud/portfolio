@@ -1,5 +1,5 @@
 const elements = document.querySelectorAll(
-    ".hero, .about, .skills, .projects, .team, .family, .project-card, .skill, .member, .family-card"
+    ".hero, .about, .skills, .projects, .team, .family, .friends, .project-card, .skill, .member, .family-card, .friend"
 );
 
 elements.forEach(el => {
