@@ -273,10 +273,10 @@ button:hover,
 .family-text h2 {
     margin-bottom: 10px;
 }
-
+/* 
 .reverse {
     flex-direction: row-reverse;
-}
+} */
 
 /* SCROLL ANIMATION */
 .hidden {
@@ -301,9 +301,9 @@ button:hover,
         text-align: center;
     }
 
-    .reverse {
+    /* .reverse {
         flex-direction: column;
-    }
+    } */
 
     .family-card img {
         width: 100%;
